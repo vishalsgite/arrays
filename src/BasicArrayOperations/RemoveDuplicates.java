@@ -20,7 +20,6 @@ public class RemoveDuplicates {
         for (int num : array) {
             uniqueSet.add(num);
         }
-
         // Convert Set to Array
         int[] result = new int[uniqueSet.size()];
         int index = 0;
